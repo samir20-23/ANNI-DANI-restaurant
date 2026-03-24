@@ -1,0 +1,142 @@
+{
+    "source_image": "breakfast-omelette-menu.jpg",
+    "currency": "DH",
+    "categories": [
+        {
+            "category": "Les Petits Déjeuners",
+            "items": [
+                {
+                    "name": "Espagnol",
+                    "price": 40,
+                    "description": "Pain complet, au baguette grille, fromage manchego, purée de tomate, olive noir, huile d'olive, mini jus d'orange, boisson chaude au choix et eau minérale"
+                },
+                {
+                    "name": "Hollandais",
+                    "price": 45,
+                    "description": "2 toastes grillés, 2 oeufs, fromage, dinde fumée, mini jus d'orange, boisson chaude au choix et eau minérale"
+                },
+                {
+                    "name": "Fassi",
+                    "price": 40,
+                    "description": "tajine khlie aux 2 oeufs, pain complet, olive noir, jben beldi, mini jus d'orange, boisson chaude au choix et eau minérale"
+                },
+                {
+                    "name": "Chamali",
+                    "price": 55,
+                    "description": "2 oeufs au plat, dinde fumée, fromage rouge, pain complet, jben beldi, tajine baysar, olive noir, mini jus d'orange, boisson chaude au choix et eau minérale"
+                },
+                {
+                    "name": "Marocaine",
+                    "price": 50,
+                    "description": "Rghaif, harcha, baghrir, pain complet avec amlou, miel, beurre, confiture, olive noir, huile d'olive, mini jus d'orange, boisson chaude au choix et eau minérale"
+                },
+                {
+                    "name": "American",
+                    "price": 55,
+                    "description": "Haricot blanc au sauce tomate, 2 oeufs au plat, saucisse, dinde au poivre, toast grillé, mini jus d'orange, boisson chaude au choix et eau minérale"
+                },
+                {
+                    "name": "Beldi",
+                    "price": 45,
+                    "description": "2 oeufs au plat, pain serial, amlou, miel, beurre, confiture, jben beldi, olive noir, huile d'olive, tajin baysar extra, mini jus d'orange, boisson chaude au choix et eau minérale"
+                },
+                {
+                    "name": "AANI & DANI",
+                    "price": 45,
+                    "description": "Oeufs pochés, sauce tomate, Oignon, ail, Fromage liquide, pain serial, mini jus d'orange, boisson chaude au choix et eau minérale"
+                }
+            ]
+        },
+        {
+            "category": "les croques",
+            "items": [
+                {
+                    "name": "Croque nature",
+                    "price": 20
+                },
+                {
+                    "name": "Croque madame",
+                    "price": 30
+                },
+                {
+                    "name": "Croque monsieur",
+                    "price": 35
+                }
+            ]
+        },
+        {
+            "category": "A la Carte",
+            "items": [
+                {
+                    "name": "Œuf au plat",
+                    "price": 10
+                },
+                {
+                    "name": "Œuf spécial",
+                    "price": 20
+                },
+                {
+                    "name": "Œuf avec khlie",
+                    "price": 25
+                },
+                {
+                    "name": "Pain avec accompagnement",
+                    "price": 18
+                },
+                {
+                    "name": "Harcha avec accompagnement",
+                    "price": 18
+                },
+                {
+                    "name": "Rghifa avec accompagnement",
+                    "price": 18
+                },
+                {
+                    "name": "Petit-pain chocolat",
+                    "price": 8
+                },
+                {
+                    "name": "Croissant simple",
+                    "price": 8
+                },
+                {
+                    "name": "Bagherir avec Amlou",
+                    "price": 30
+                }
+            ]
+        },
+        {
+            "category": "les omelettes",
+            "items": [
+                {
+                    "name": "Omelette nature",
+                    "price": 15
+                },
+                {
+                    "name": "Omelette fromage",
+                    "price": 18
+                },
+                {
+                    "name": "Omelette dinde fumée",
+                    "price": 19
+                },
+                {
+                    "name": "Omelette fromage et dinde fumée",
+                    "price": 25
+                },
+                {
+                    "name": "Omelette champignon",
+                    "price": 23
+                },
+                {
+                    "name": "Omelette végétarienne",
+                    "price": 25
+                },
+                {
+                    "name": "Omelette crevette",
+                    "price": 35
+                }
+            ]
+        }
+    ]
+}

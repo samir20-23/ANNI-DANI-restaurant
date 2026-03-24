@@ -1,0 +1,206 @@
+{
+    "category": "LES JUS ET LES BOISSONS ET FROIDES",
+    "currency": "DH",
+    "items": {
+        "cafes": [
+            {
+                "name": "Espresso",
+                "price": 20
+            },
+            {
+                "name": "Espresso au sirop",
+                "price": 32
+            },
+            {
+                "name": "Café américain",
+                "price": 28
+            },
+            {
+                "name": "Café au Lait",
+                "price": 30
+            },
+            {
+                "name": "Café au Lait au sirop",
+                "price": 42
+            },
+            {
+                "name": "Cappuccino",
+                "price": 32
+            },
+            {
+                "name": "Cappuccino au sirop",
+                "price": 44
+            },
+            {
+                "name": "Nescafe",
+                "price": 30
+            },
+            {
+                "name": "Spanish Latte",
+                "price": 55
+            },
+            {
+                "name": "Cortado",
+                "price": 30
+            }
+        ],
+        "cafe_illy": [
+            {
+                "name": "Expresso Illy",
+                "price": 25
+            },
+            {
+                "name": "Expresso Illy au sirop",
+                "price": 37
+            },
+            {
+                "name": "Café au Lait Illy",
+                "price": 35
+            },
+            {
+                "name": "Café au Lait Illy au sirop",
+                "price": 47
+            },
+            {
+                "name": "Café américain Illy",
+                "price": 33
+            },
+            {
+                "name": "Double espresso Illy",
+                "price": 45
+            }
+        ],
+        "cafe_nespresso": [
+            {
+                "name": "Nespresso",
+                "price": 23
+            },
+            {
+                "name": "Nespresso au sirop",
+                "price": 35
+            },
+            {
+                "name": "Américain Nespresso",
+                "price": 31
+            },
+            {
+                "name": "Nespresso au lait",
+                "price": 33
+            },
+            {
+                "name": "Nespresso au lait au sirop",
+                "price": 45
+            },
+            {
+                "name": "Double Nespresso",
+                "price": 38
+            }
+        ],
+        "thes_et_boissons_chaudes": [
+            {
+                "name": "Chocolat chaud",
+                "price": 30
+            },
+            {
+                "name": "Lait à la verveine",
+                "price": 25
+            },
+            {
+                "name": "Thé à la menthe",
+                "price": 20
+            },
+            {
+                "name": "Thé à la verveine",
+                "price": 25
+            },
+            {
+                "name": "Thé Lipton",
+                "price": 28
+            },
+            {
+                "name": "Infusion",
+                "price": 28
+            }
+        ],
+        "jus_et_froid": [
+            {
+                "name": "Pomme",
+                "price": 42
+            },
+            {
+                "name": "Banane",
+                "price": 40
+            },
+            {
+                "name": "Fraise",
+                "price": 45
+            },
+            {
+                "name": "Citron",
+                "price": 38
+            },
+            {
+                "name": "Mangue",
+                "price": 47
+            },
+            {
+                "name": "Ananas",
+                "price": 45
+            },
+            {
+                "name": "Avocat",
+                "price": 42
+            },
+            {
+                "name": "Panaché",
+                "price": 52
+            },
+            {
+                "name": "Smoothie (Banane/Fraise/Mangue/Ananas)",
+                "price": 60
+            },
+            {
+                "name": "Mojito classique",
+                "price": 45
+            },
+            {
+                "name": "Mojito aux fruits",
+                "price": 48
+            },
+            {
+                "name": "Shakes (Vanille/Banane)",
+                "price": 50
+            },
+            {
+                "name": "Shakes (Fraise/Chocolat)",
+                "price": 52
+            },
+            {
+                "name": "Shakes Spéciaux (Kinder/Lotus/Snickers/Caramel)",
+                "price": 55
+            }
+        ],
+        "boissons_glaces": [
+            {
+                "name": "Eau minérale 33 cl",
+                "price": 10
+            },
+            {
+                "name": "Boissons gazeuses",
+                "price": 20
+            },
+            {
+                "name": "Red Bull",
+                "price": 50
+            },
+            {
+                "name": "1 boule de glace",
+                "price": 15
+            },
+            {
+                "name": "2 boules de glace",
+                "price": 30
+            }
+        ]
+    }
+}

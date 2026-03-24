@@ -1,3 +1,11 @@
+name of restaurant : AANI & DANI
 phone : 0653333319
 location : City center, Food court, Tanger 90000
 location url  use it in map in my sit section map : https://maps.app.goo.gl/xQruzg1wheBpEVXR8
+https://www.google.com/maps/place/AANI+%26+DANI/@35.7734807,-5.7870846,15z/data=!4m6!3m5!1s0xd0b8106d9e83c05:0x202289707a917ef8!8m2!3d35.7734807!4d-5.7870846!16s%2Fg%2F11v6chzg70?hl=fr&entry=tts&shorturl=1
+
+
+instagram : https://www.instagram.com/aani_dani_maroc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==
+
+facebook:https://www.facebook.com/people/AANI-DANI/100095314103581/
+whatsapp  : https://api.whatsapp.com/send/?phone=212653333319&text&type=phone_number&app_absent=0
