@@ -1,0 +1,367 @@
+{
+    "source_image": "fast-food-snack-menu.jpg",
+    "menu_id": 1,
+    "currency": "DH",
+    "categories": [
+        {
+            "category": "BURGER",
+            "items": [
+                {
+                    "name": "Classic",
+                    "price": 40,
+                    "description": "viande hachée, laitue, tomate, oignons, sauce au choix"
+                },
+                {
+                    "name": "Chesse",
+                    "price": 43,
+                    "description": "viande hachée, fromage cheddar, oignons, sauce au choix"
+                },
+                {
+                    "name": "Egg",
+                    "price": 43,
+                    "description": "viande hachée, oeuf, oignons, laitue, tomate, sauce au choix"
+                },
+                {
+                    "name": "Chicken",
+                    "price": 43,
+                    "description": "poulet haché, fromage cheddar, oignons, laitue, tomate, sauce au choix"
+                },
+                {
+                    "name": "Quality",
+                    "price": 45,
+                    "description": "viande hachée, oeuf, fromage cheddar, oignons, laitue, tomate, sauce au choix"
+                },
+                {
+                    "name": "Crispy chicken",
+                    "price": 50,
+                    "description": "chicken crispy, fromage cheddar, oignons, laitue, tomate, sauce au choix"
+                },
+                {
+                    "name": "Double Chesse",
+                    "price": 53,
+                    "description": "viande hachée, fromage cheddar, oignons, laitue, tomate, sauce au choix"
+                },
+                {
+                    "name": "Double",
+                    "price": 55,
+                    "description": "poulet haché, fromage cheddar, oignons, laitue, tomate, sauce au choix"
+                },
+                {
+                    "name": "Mixte",
+                    "price": 55,
+                    "description": "viande hachée, poulet haché, fromage cheddar, oignons, laitue, tomate, sauce au choix"
+                },
+                {
+                    "name": "Avocat",
+                    "price": 60,
+                    "description": "crème d'avocat, viande hachée, fromage cheddar, oignons, laitue, tomate, sauce au choix"
+                }
+            ]
+        },
+        {
+            "category": "TACOS",
+            "items": [
+                {
+                    "name": "poulet",
+                    "price": 45,
+                    "description": "frit, poulet, sauce fromagère, mozzarella"
+                },
+                {
+                    "name": "Nuggets",
+                    "price": 50,
+                    "description": "frit, nuggets, sauce fromagère, mozzarella"
+                },
+                {
+                    "name": "viande hachée",
+                    "price": 50,
+                    "description": "frit, viande hachée, sauce fromagère, mozzarella"
+                },
+                {
+                    "name": "Cordon bleu",
+                    "price": 55,
+                    "description": "frit, cordon bleu, sauce fromagère, mozzarella"
+                },
+                {
+                    "name": "fruit de mer",
+                    "price": 55,
+                    "description": "frit, fruit de mer, sauce fromagère, mozzarella"
+                },
+                {
+                    "name": "mixt",
+                    "price": 55,
+                    "description": "frit, poulet, viande hachée, sauce fromagère, mozzarella"
+                }
+            ]
+        },
+        {
+            "category": "DURUM",
+            "items": [
+                {
+                    "name": "Poulet",
+                    "price": 40,
+                    "description": "Poulet, Laitue, Tomate, Oignon, Fromage, Sauce Au Choix"
+                },
+                {
+                    "name": "Cordon Bleu",
+                    "price": 50,
+                    "description": "Cordon Bleu, Laitue, Tomate, Oignon, Fromage, Sauce Au Choix"
+                },
+                {
+                    "name": "Viande Hachée",
+                    "price": 45,
+                    "description": "Viande Hachée, Laitue, Tomate, Oignon, Fromage, Sauce Au Choix"
+                },
+                {
+                    "name": "Mixte",
+                    "price": 50,
+                    "description": "Viande Haché, Poulet, Laitue, Tomate, Oignon, Fromage, Sauce Au Choix"
+                },
+                {
+                    "name": "Nuggets",
+                    "price": 45,
+                    "description": "Nuggets, Laitue, Tomate, Oignon, Fromage, Sauce Au Choix"
+                },
+                {
+                    "name": "Fruit De Mer",
+                    "price": 50,
+                    "description": "Fruit De Mer, Laitue, Tomate, Oignon, Fromage, Sauce Au Choix"
+                }
+            ],
+            "extras": {
+                "Gratiné": 10
+            }
+        },
+        {
+            "category": "PANINI",
+            "items": [
+                {
+                    "name": "fromage jambon",
+                    "price": 40,
+                    "description": "dinde fumée, fromage, tomate, laitue, oignon, sauce fromage"
+                },
+                {
+                    "name": "fruit de mer",
+                    "price": 55,
+                    "description": "fruit de mer, fromage, tomate, laitue, oignon, sauce fromage"
+                },
+                {
+                    "name": "poulet",
+                    "price": 45,
+                    "description": "poulet, fromage, tomate, laitue, oignon, sauce fromage"
+                },
+                {
+                    "name": "mixte",
+                    "price": 55,
+                    "description": "poulet, viande hachée, fromage, tomate, laitue, oignon, sauce fromage"
+                },
+                {
+                    "name": "viande hachée",
+                    "price": 50,
+                    "description": "viande hachée, fromage, tomate, laitue, oignon, sauce fromage"
+                }
+            ]
+        },
+        {
+            "category": "PIZZAS",
+            "items": [
+                {
+                    "name": "Margarita",
+                    "price": 35
+                },
+                {
+                    "name": "Bolognaise",
+                    "price": 45
+                },
+                {
+                    "name": "Thon",
+                    "price": 45
+                },
+                {
+                    "name": "Végétarienne",
+                    "price": 45
+                },
+                {
+                    "name": "Poulet",
+                    "price": 50
+                },
+                {
+                    "name": "4 Fromage",
+                    "price": 55
+                },
+                {
+                    "name": "Fruit De Mer",
+                    "price": 60
+                },
+                {
+                    "name": "4 Saisons",
+                    "price": 65
+                }
+            ]
+        },
+        {
+            "category": "PASTICCIO",
+            "items": [
+                {
+                    "name": "jambon",
+                    "price": 40,
+                    "description": "frit, dinde fumée, sauce béchamel, fromage"
+                },
+                {
+                    "name": "végétarien",
+                    "price": 40,
+                    "description": "frit, Légume sauté, sauce béchamel, fromage"
+                },
+                {
+                    "name": "poulet",
+                    "price": 48,
+                    "description": "frit, poulet, sauce béchamel, fromage"
+                },
+                {
+                    "name": "viande hachée",
+                    "price": 52,
+                    "description": "frit, viande hachée, sauce béchamel, fromage"
+                },
+                {
+                    "name": "fruit de mer",
+                    "price": 60,
+                    "description": "frit, fruit de mer, sauce béchamel, fromage"
+                },
+                {
+                    "name": "mixt",
+                    "price": 70,
+                    "description": "frit, viande hachée, poulet, fruit de mer, sauce béchamel, fromage"
+                }
+            ]
+        },
+        {
+            "category": "KAPSALON",
+            "items": [
+                {
+                    "name": "Végétarien",
+                    "price": 48,
+                    "description": "Frit, Légume sauté, Fromage, Laitue, Tomate, Champignon, Mais, Oignon, Sauce Au Choix"
+                },
+                {
+                    "name": "Poulet",
+                    "price": 50,
+                    "description": "Frit, Poulet, Fromage, Laitue, Tomate, Champignon, Mais, Oignon, Sauce Au Choix"
+                },
+                {
+                    "name": "Viande Hachée",
+                    "price": 55,
+                    "description": "Frit, Viande Hachée, Fromage, Laitue, Tomate, Champignon, Mais, Oignon, Sauce Au Choix"
+                },
+                {
+                    "name": "Nuggets",
+                    "price": 55,
+                    "description": "Frit, Nuggets, Fromage, Laitue, Tomate, Champignon, Mais, Oignon, Sauce Au Choix"
+                },
+                {
+                    "name": "Cordon Bleu",
+                    "price": 60,
+                    "description": "Frit, Cordon Bleu, Fromage, Laitue, Tomate, Champignon, Mais, Oignon, Sauce Au Choix"
+                },
+                {
+                    "name": "Fruit De Mer",
+                    "price": 65,
+                    "description": "Frit, Fruit De Mer, Fromage, Laitue, Tomate, Champignon, Mais, Oignon, Sauce Au Choix"
+                },
+                {
+                    "name": "Mixt",
+                    "price": 70,
+                    "description": "Frit, Viande Haché, Poulet, Fruit De Mer, Fromage, Laitue, Tomate, Champignon, Mais, Oignon, Sauce Au Choix"
+                }
+            ]
+        },
+        {
+            "category": "PATE",
+            "items": [
+                {
+                    "name": "Spaghetti bolognaise",
+                    "price": 40,
+                    "description": "sauce tomate, viande haché, les herbes, fromage"
+                },
+                {
+                    "name": "Spaghetti Alfredo",
+                    "price": 50,
+                    "description": "sauce blanche, poulet, champignon, les herbes, fromage"
+                },
+                {
+                    "name": "Spaghetti fruit de mer",
+                    "price": 65,
+                    "description": "sauce rose, crevette, calamar, surimi, les herbes, Fromage"
+                },
+                {
+                    "name": "Tagliatelle carbonara",
+                    "price": 45,
+                    "description": "sauce blanche, dinde fumé, jaune d'oeuf, les herbes, fromage"
+                },
+                {
+                    "name": "Penne Arrabiata",
+                    "price": 35,
+                    "description": "sauce tomate, jalapenos, olive noir, tomate cerise, les herbes, fromage"
+                },
+                {
+                    "name": "Penne au thon",
+                    "price": 40,
+                    "description": "sauce tomate, thon, olive noir, les herbes, fromage"
+                },
+                {
+                    "name": "lasagne bolognaise",
+                    "price": 50,
+                    "description": "Viande hachée, sauce rose, fromage, les herbes"
+                }
+            ]
+        },
+        {
+            "category": "LES PLATS",
+            "items": [
+                {
+                    "name": "Emincé de poulet crème champignons",
+                    "price": 65,
+                    "description": "Légume sauté, riz crème, frite"
+                },
+                {
+                    "name": "Escalope de poulet",
+                    "price": 75,
+                    "description": "Légume sauté, riz, frit"
+                },
+                {
+                    "name": "Emincé de boeuf sauce poivre",
+                    "price": 85,
+                    "description": "Légume sauté, riz crème, frite"
+                },
+                {
+                    "name": "Filet de boeuf",
+                    "price": 120,
+                    "description": "Légume sauté, patata brava, Sauce champignon ou poivre"
+                }
+            ]
+        },
+        {
+            "category": "SALADES",
+            "items": [
+                {
+                    "name": "Marocain",
+                    "price": 25,
+                    "description": "Tomate, Oignon, Poivron, Concombre, Laitue, Sauce Vinaigrette"
+                },
+                {
+                    "name": "Niçoise",
+                    "price": 40,
+                    "description": "Laitue, Haricot Vert, Carotte, Pomme De Terre, Concombre, Tomate, Oignon, Thon, Mais, Les Anchois, Sauce Vinaigrette, Olive Main, Oeuf"
+                },
+                {
+                    "name": "Cesar",
+                    "price": 45,
+                    "description": "Laitue, Poulet, Tomate, Crouton, Parmesan, sauce César"
+                },
+                {
+                    "name": "Avocat Crevettes",
+                    "price": 50,
+                    "description": "Laitue, Crevettes, Avocat, Tomate Cerise, Olive Noir, Sauce Cocktail"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,204 @@
+{
+    "category": "LES CRÉPES ET LES VIENNOISERIES",
+    "currency": "DH",
+    "items": {
+        "crepes_sucrees": [
+            {
+                "name": "Crêpe nature",
+                "price": 31
+            },
+            {
+                "name": "Crêpe Nutella",
+                "price": 52
+            },
+            {
+                "name": "Choco Brownie Crêpe",
+                "price": 69
+            },
+            {
+                "name": "Crêpe Triple Choco Crunch",
+                "price": 75
+            },
+            {
+                "name": "Crêpe Triple Choco",
+                "price": 62
+            },
+            {
+                "name": "Crêpe Fraisier Chantilly",
+                "price": 75
+            },
+            {
+                "name": "Crêpe Créu",
+                "price": 72
+            },
+            {
+                "name": "Royal Bernadine",
+                "price": 79
+            },
+            {
+                "name": "Choco Banana Roll",
+                "price": 52
+            },
+            {
+                "name": "Lotus Mighty Crêpe",
+                "price": 82
+            },
+            {
+                "name": "Crêpe Choco Oreo Mania",
+                "price": 85
+            },
+            {
+                "name": "Crêpe Pistachio Nature",
+                "price": 59
+            },
+            {
+                "name": "Crêpe miel, amlou et fruits secs",
+                "price": 75
+            }
+        ],
+        "crepes_salees": [
+            {
+                "name": "Crêpe Fromage Spécial",
+                "price": 49
+            },
+            {
+                "name": "Crêpe au poulet",
+                "price": 69
+            },
+            {
+                "name": "Crêpe à la viande hachée",
+                "price": 82
+            },
+            {
+                "name": "Crêpe Madame Fumée",
+                "price": 75
+            },
+            {
+                "name": "Crêpe poulet et dinde fumée",
+                "price": 90
+            }
+        ],
+        "pancakes": [
+            {
+                "name": "Pancakes aux fruits frais et chocolat",
+                "price": 69
+            },
+            {
+                "name": "Pancakes brownie",
+                "price": 82
+            },
+            {
+                "name": "Pancakes amlou et banane",
+                "price": 65
+            },
+            {
+                "name": "Pancakes Nutella et banane",
+                "price": 55
+            },
+            {
+                "name": "Oreo Crunch Pancakes",
+                "price": 82
+            }
+        ],
+        "gaufres": [
+            {
+                "name": "Gaufre aux fruits",
+                "price": 54
+            },
+            {
+                "name": "Gaufre triple chocolat",
+                "price": 62
+            },
+            {
+                "name": "Gaufre croquante au Lotus",
+                "price": 67
+            },
+            {
+                "name": "Pâte à choux",
+                "price": 65
+            }
+        ],
+        "duo_fondant_croquant": [
+            {
+                "name": "Classique",
+                "price": 75
+            },
+            {
+                "name": "Créo",
+                "price": 77
+            },
+            {
+                "name": "KitKat",
+                "price": 77
+            },
+            {
+                "name": "Lotus",
+                "price": 77
+            },
+            {
+                "name": "Nutella",
+                "price": 77
+            },
+            {
+                "name": "Banane",
+                "price": 77
+            }
+        ],
+        "specialites_a_la_terre_cuite": [
+            {
+                "name": "Brownies & cookies",
+                "price": 85
+            },
+            {
+                "name": "Lotus & cookies",
+                "price": 85
+            }
+        ],
+        "viennoiserie_et_cakes": [
+            {
+                "name": "Pain au chocolat",
+                "price": 10
+            },
+            {
+                "name": "Pain nature",
+                "price": 10
+            },
+            {
+                "name": "Croissant nature",
+                "price": 10
+            },
+            {
+                "name": "Croissant à la crème (Amandes/Citron/Framboise)",
+                "price": 15
+            },
+            {
+                "name": "Croissant à la crème d'amandes",
+                "price": 15
+            },
+            {
+                "name": "Croissant à la crème citron",
+                "price": 15
+            },
+            {
+                "name": "Croissant à la crème framboise",
+                "price": 15
+            },
+            {
+                "name": "Croissant à la dinde fumée et fromage",
+                "price": 20
+            },
+            {
+                "name": "Fondant au chocolat",
+                "price": 12
+            },
+            {
+                "name": "Brownies",
+                "price": 15
+            },
+            {
+                "name": "Cake Dame",
+                "price": 15
+            }
+        ]
+    }
+}
