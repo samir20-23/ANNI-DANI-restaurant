@@ -74,6 +74,7 @@ export default function Home() {
           items={featuredFoodImages.map((img, i) => ({
              id: `featured-${i}`,
              title: img.alt.substring(0, 15), // Keep milestone title short
+             fullName: img.alt, // Full name for exact menu searching
              src: img.src,
              alt: img.alt
           }))}
