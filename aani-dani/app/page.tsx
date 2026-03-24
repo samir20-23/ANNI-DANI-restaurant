@@ -4,6 +4,7 @@ import MenuCategoryCard from './components/MenuCategoryCard';
 import SpaceSection from './components/SpaceSection';
 import { featuredFoodImages } from './lib/mediaMap';
 import { getFullMenu } from './lib/menuData';
+import Carousel3D from './components/Carousel3D';
 import Link from 'next/link';
 
 export default function Home() {
@@ -66,19 +67,18 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Featured Food Gallery */}
-      <section className="section" id="gallery">
-        <div className="container">
-          <h2 className="section-title">Our Specialties</h2>
-          <p className="section-subtitle">
-            Crafted with fresh ingredients and passion
-          </p>
-          <div className="food-grid">
-            {featuredFoodImages.map((food, idx) => (
-              <FoodCard key={idx} src={food.src} alt={food.alt} />
-            ))}
-          </div>
-        </div>
+      {/* Featured Food Gallery - 3D Carousel Cylinder */}
+      <section className="section section--dark" id="gallery" style={{ padding: 0 }}>
+        <Carousel3D 
+          title="Best Sellers"
+          items={featuredFoodImages.map((img, i) => ({
+             id: `featured-${i}`,
+             title: img.alt.substring(0, 15), // Keep milestone title short
+             fullName: img.alt, // Full name for exact menu searching
+             src: img.src,
+             alt: img.alt
+          }))}
+        />
       </section>
 
       {/* Space & Vibe */}
