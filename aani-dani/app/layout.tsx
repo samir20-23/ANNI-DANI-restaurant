@@ -34,7 +34,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr" className={`${playfair.variable} ${inter.variable}`}>
+    <html lang="fr" className={`${playfair.variable} ${inter.variable}`} data-scroll-behavior="smooth">
       <body>
         <Navbar />
         <main>{children}</main>

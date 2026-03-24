@@ -3,51 +3,68 @@ import FoodCard from './components/FoodCard';
 import MenuCategoryCard from './components/MenuCategoryCard';
 import SpaceSection from './components/SpaceSection';
 import { featuredFoodImages } from './lib/mediaMap';
-import { getMenuPreview } from './lib/menuData';
+import { getFullMenu } from './lib/menuData';
 import Link from 'next/link';
 
 export default function Home() {
-  const menuPreview = getMenuPreview();
+  const menuSections = getFullMenu();
 
   return (
     <>
       <HeroSection />
 
-      {/* Featured Food Gallery */}
-      <section className="section" id="gallery">
-        <div className="container">
-          <h2 className="section-title">Our Specialties</h2>
-          <p className="section-subtitle">
-            Crafted with fresh ingredients and passion
-          </p>
-          <div className="food-grid">
-            {featuredFoodImages.map((food, idx) => (
-              <FoodCard key={idx} src={food.src} alt={food.alt} />
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Menu Preview */}
-      <section className="section section--warm" id="menu-preview">
-        <div className="container">
+      {/* Full Menu immediately after Hero for QR scanner accessibility */}
+      <section className="section section--warm" id="menu" style={{ position: 'relative', overflow: 'hidden' }}>
+        {/* Subtle background image */}
+        <div style={{
+          position: 'absolute',
+          top: '20%',
+          right: '-10%',
+          opacity: 0.05,
+          zIndex: 0,
+          pointerEvents: 'none',
+          transform: 'rotate(-15deg)',
+          width: '500px',
+          height: '500px',
+          backgroundImage: 'url(/images/food/pasticcio.jpg)',
+          backgroundSize: 'contain',
+          backgroundRepeat: 'no-repeat'
+        }} />
+        <div style={{
+          position: 'absolute',
+          bottom: '10%',
+          left: '-5%',
+          opacity: 0.05,
+          zIndex: 0,
+          pointerEvents: 'none',
+          transform: 'rotate(15deg)',
+          width: '400px',
+          height: '400px',
+          backgroundImage: 'url(/images/food/cheese-burger.jpg)',
+          backgroundSize: 'contain',
+          backgroundRepeat: 'no-repeat'
+        }} />
+        
+        <div className="container" style={{ position: 'relative', zIndex: 1 }}>
           <h2 className="section-title">Our Menu</h2>
           <p className="section-subtitle">
-            A taste of what we offer — from breakfast to dessert
+            Fresh ingredients, exceptional flavors
           </p>
-          <div className="menu-preview-grid">
-            {menuPreview.map((cat, idx) => (
-              <MenuCategoryCard key={idx} category={cat} compact />
+          
+          <div className="menu-scroll-container">
+            {menuSections.map((section, sIdx) => (
+              <div key={sIdx} className="menu-section">
+                <h3 className="menu-section__title">{section.title}</h3>
+                <div className="menu-section__grid">
+                  {section.categories.map((cat, cIdx) => (
+                    <MenuCategoryCard key={cIdx} category={cat} />
+                  ))}
+                </div>
+              </div>
             ))}
-          </div>
-          <div className="section__cta">
-            <Link href="/menu" className="btn btn--primary">
-              View Full Menu
-            </Link>
           </div>
         </div>
       </section>
-
       {/* Space & Vibe */}
       <SpaceSection />
 

@@ -24,7 +24,6 @@ export default function Navbar() {
             height={44}
             priority
           />
-          <span className="navbar__brand">AANI & DANI</span>
         </Link>
 
         <div className={`navbar__links ${isOpen ? 'navbar__links--open' : ''}`}>
