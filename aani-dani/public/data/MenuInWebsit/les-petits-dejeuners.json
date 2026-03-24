@@ -1,0 +1,245 @@
+{
+  "category": "LES PETITS DÉJEUNERS",
+  "currency": "DH",
+  "items": {
+    "menus_complets": [
+      {
+        "name": "Marocain",
+        "price": 59,
+        "description": "Harcha, baghrir, rghaif, pain complet, beurre, miel, jben, olive, amlou, 2 oeufs (fris-bouilli)"
+      },
+      {
+        "name": "Fassi",
+        "price": 73,
+        "description": "Khlie avec 3 oeufs, pain complet, rghaif, harcha, beurre, miel, olives"
+      },
+      {
+        "name": "Espagnol",
+        "price": 65,
+        "description": "4 toastes grillés, fromage manchego, purée de tomate, tapenade d'olives noir et vert, huile d'olive avec ail, oeuf"
+      },
+      {
+        "name": "Hollandais",
+        "price": 67,
+        "description": "2 toastes grillés, 2 oeufs, fromage edam, dinde fumée, olive"
+      },
+      {
+        "name": "Turc",
+        "price": 95,
+        "description": "Chakchouka, 2 pain complet, olive, jben beldi, fromage edam, fromage manchego, tomate, concombre"
+      },
+      {
+        "name": "Chamali",
+        "price": 75,
+        "description": "3 oeufs, 2 pain complet, dinde fumée, fromage edam, olive, tajine baysar, bol belboula"
+      },
+      {
+        "name": "Français",
+        "price": 85,
+        "description": "Croissant, pain au chocolat, baguette, 2 oeufs (fris-bouilli), confiture, beurre, miel, fromage edam, dinde fumée, yaourt"
+      },
+      {
+        "name": "Healthy",
+        "price": 85,
+        "description": "Choix de 2 articles: toast complet grillé (thon/avocat/tomate), toast complet grillé (fromage blanc/origan/huille d'olive), toast complet grillé (oeufs avec champignons/oignons), toast complet grillé (purée d'avocat/oeuf), toast complet grillé (miel/banane)"
+      },
+      {
+        "name": "Brunch Mix Sucré-Salé",
+        "price": 99,
+        "description": "2 toast grillé, purée d'avocat, 2 oeuf, dinde fumée, oignon, tomates cerises, graines min / pancakes avec complet (miel, nutella), yaourt"
+      }
+    ],
+    "a_la_carte": [
+      {
+        "name": "Croque au fromage Edam",
+        "price": 50
+      },
+      {
+        "name": "Croque au fromage et dinde fumée",
+        "price": 60
+      },
+      {
+        "name": "Omelette nature",
+        "price": 32
+      },
+      {
+        "name": "Omelette au champignon",
+        "price": 43
+      },
+      {
+        "name": "Omelette au fromage edam",
+        "price": 45
+      },
+      {
+        "name": "Omelette végétarien",
+        "price": 52
+      },
+      {
+        "name": "Omelette au fromage et champignon",
+        "price": 54
+      },
+      {
+        "name": "Omelette fromage dinde fumée",
+        "price": 60
+      },
+      {
+        "name": "Omelette au thon",
+        "price": 62
+      },
+      {
+        "name": "Omelette au khlie",
+        "price": 60
+      },
+      {
+        "name": "Baghrir à l'amlou, banane et fruits secs",
+        "price": 48
+      },
+      {
+        "name": "Harcha avec complément",
+        "price": 30
+      },
+      {
+        "name": "Rghaif avec complément",
+        "price": 30
+      },
+      {
+        "name": "Céréales",
+        "price": 55
+      },
+      {
+        "name": "Petit-pain chocolat",
+        "price": 18
+      },
+      {
+        "name": "Croissant nature",
+        "price": 18
+      },
+      {
+        "name": "San Sebastian",
+        "price": 48
+      },
+      {
+        "name": "Tiramisu",
+        "price": 45
+      },
+      {
+        "name": "Pâtisserie",
+        "price": 45
+      },
+      {
+        "name": "Flan",
+        "price": 38
+      }
+    ],
+    "extras": [
+      {
+        "name": "Oeuf",
+        "price": 18
+      },
+      {
+        "name": "Jben beldi",
+        "price": 18
+      },
+      {
+        "name": "Fromage Edam",
+        "price": 28
+      },
+      {
+        "name": "Fromage Manchego",
+        "price": 35
+      },
+      {
+        "name": "Fromage parmesan",
+        "price": 35
+      },
+      {
+        "name": "Dinde fumée",
+        "price": 28
+      },
+      {
+        "name": "Confiture",
+        "price": 18
+      },
+      {
+        "name": "Miel",
+        "price": 18
+      },
+      {
+        "name": "Amlou",
+        "price": 28
+      },
+      {
+        "name": "Beurre",
+        "price": 18
+      },
+      {
+        "name": "Khlie",
+        "price": 35
+      },
+      {
+        "name": "Pain complet",
+        "price": 10
+      },
+      {
+        "name": "Champignons",
+        "price": 28
+      },
+      {
+        "name": "Avocat",
+        "price": 28
+      },
+      {
+        "name": "Thon",
+        "price": 35
+      },
+      {
+        "name": "Tajine de baysar",
+        "price": 38
+      },
+      {
+        "name": "Belboula",
+        "price": 35
+      },
+      {
+        "name": "Sauce chocolat",
+        "price": 28
+      },
+      {
+        "name": "Sauce pistache",
+        "price": 28
+      },
+      {
+        "name": "Sauce Kinder",
+        "price": 28
+      },
+      {
+        "name": "Nutella",
+        "price": 18
+      },
+      {
+        "name": "Fruits secs",
+        "price": 24
+      },
+      {
+        "name": "Chantilly",
+        "price": 18
+      },
+      {
+        "name": "Amandes hachées",
+        "price": 20
+      },
+      {
+        "name": "Amandes effilées",
+        "price": 20
+      },
+      {
+        "name": "Sirop",
+        "price": 12
+      },
+      {
+        "name": "Frites",
+        "price": 18
+      }
+    ]
+  }
+}

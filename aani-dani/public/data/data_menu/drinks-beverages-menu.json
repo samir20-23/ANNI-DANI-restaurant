@@ -1,0 +1,327 @@
+{
+    "source_image": "drinks-beverages-menu.jpg",
+    "brand": "AANI & DANI",
+    "currency": "DH",
+    "categories": [
+        {
+            "category": "CAFÉS",
+            "items": [
+                {
+                    "name": "Expresso",
+                    "price": 18
+                },
+                {
+                    "name": "Nespresso",
+                    "price": 20
+                },
+                {
+                    "name": "Cafés Américain tall",
+                    "price": 24
+                },
+                {
+                    "name": "Cafés Américain large",
+                    "price": 28
+                },
+                {
+                    "name": "Chocolat chaud",
+                    "price": 20
+                },
+                {
+                    "name": "Cafés au Lait Tall",
+                    "price": 25
+                },
+                {
+                    "name": "Cafés au Lait Large",
+                    "price": 30
+                },
+                {
+                    "name": "Double Expresso",
+                    "price": 25
+                },
+                {
+                    "name": "Cappuccino tall",
+                    "price": 25
+                },
+                {
+                    "name": "Cappuccino large",
+                    "price": 30
+                }
+            ]
+        },
+        {
+            "category": "FRAPPÉ",
+            "items": [
+                {
+                    "name": "Caramel",
+                    "price": 35
+                },
+                {
+                    "name": "Chocolat",
+                    "price": 38
+                },
+                {
+                    "name": "Moka",
+                    "price": 38
+                },
+                {
+                    "name": "Nutella",
+                    "price": 38
+                }
+            ]
+        },
+        {
+            "category": "MILKSHAKES",
+            "items": [
+                {
+                    "name": "Vanille",
+                    "price": 35
+                },
+                {
+                    "name": "Fraise",
+                    "price": 35
+                },
+                {
+                    "name": "Chocolat",
+                    "price": 37
+                },
+                {
+                    "name": "Banane",
+                    "price": 37
+                },
+                {
+                    "name": "Oreo",
+                    "price": 38
+                },
+                {
+                    "name": "KitKat",
+                    "price": 38
+                },
+                {
+                    "name": "Cookies",
+                    "price": 39
+                }
+            ]
+        },
+        {
+            "category": "THÉ",
+            "items": [
+                {
+                    "name": "Thé à la menthe",
+                    "price": 18
+                },
+                {
+                    "name": "thé vert",
+                    "price": 20
+                },
+                {
+                    "name": "thé Américain",
+                    "price": 25
+                },
+                {
+                    "name": "Infusion",
+                    "price": 26
+                },
+                {
+                    "name": "Thé anglais",
+                    "price": 27
+                }
+            ]
+        },
+        {
+            "category": "MOJITOS",
+            "items": [
+                {
+                    "name": "Classic",
+                    "price": 35
+                },
+                {
+                    "name": "Framboise",
+                    "price": 39
+                },
+                {
+                    "name": "Bluelagoon ( RedBull )",
+                    "price": 45
+                }
+            ]
+        },
+        {
+            "category": "THÉ GLACÉ",
+            "items": [
+                {
+                    "name": "Pêche",
+                    "price": 33
+                },
+                {
+                    "name": "citron menthe",
+                    "price": 33
+                },
+                {
+                    "name": "Fraise",
+                    "price": 33
+                }
+            ]
+        },
+        {
+            "category": "JUS",
+            "items": [
+                {
+                    "name": "Pomme",
+                    "price": 23
+                },
+                {
+                    "name": "Banane",
+                    "price": 25
+                },
+                {
+                    "name": "Oranges",
+                    "price": 25
+                },
+                {
+                    "name": "Citron",
+                    "price": 25
+                },
+                {
+                    "name": "Mangue",
+                    "price": 30
+                },
+                {
+                    "name": "Ananas",
+                    "price": 32
+                },
+                {
+                    "name": "Avocat",
+                    "price": 30
+                },
+                {
+                    "name": "Avocat ( fruit sec )",
+                    "price": 40
+                },
+                {
+                    "name": "Panaché",
+                    "price": 40
+                }
+            ]
+        },
+        {
+            "category": "COCKTAILS",
+            "items": [
+                {
+                    "name": "Rainbow",
+                    "price": 35
+                },
+                {
+                    "name": "Sunset",
+                    "price": 37
+                },
+                {
+                    "name": "Bora Bora",
+                    "price": 40
+                },
+                {
+                    "name": "Piña colada",
+                    "price": 45
+                }
+            ]
+        },
+        {
+            "category": "SMOOTHIES",
+            "items": [
+                {
+                    "name": "Banane",
+                    "price": 38
+                },
+                {
+                    "name": "Fraise",
+                    "price": 37
+                },
+                {
+                    "name": "Mangue/ ananas",
+                    "price": 40
+                },
+                {
+                    "name": "kiwi/avocat",
+                    "price": 40
+                }
+            ]
+        },
+        {
+            "category": "ICE COFFEE",
+            "items": [
+                {
+                    "name": "Ice américain",
+                    "price": 31
+                },
+                {
+                    "name": "Ice Cappuccino",
+                    "price": 31
+                },
+                {
+                    "name": "Ice cacao",
+                    "price": 31
+                },
+                {
+                    "name": "Ice moka",
+                    "price": 35
+                },
+                {
+                    "name": "Ice chocolat",
+                    "price": 35
+                },
+                {
+                    "name": "Dalgona Coffee",
+                    "price": 38
+                }
+            ]
+        },
+        {
+            "category": "Boissons Gazeuse",
+            "items": [
+                {
+                    "name": "COCA COLA",
+                    "price": 17
+                },
+                {
+                    "name": "HAWAI",
+                    "price": 17
+                },
+                {
+                    "name": "SPRITE",
+                    "price": 17
+                },
+                {
+                    "name": "FANTA",
+                    "price": 17
+                },
+                {
+                    "name": "POMSE",
+                    "price": 17
+                },
+                {
+                    "name": "7up",
+                    "price": 17
+                },
+                {
+                    "name": "Red Bull",
+                    "price": 30
+                },
+                {
+                    "name": "ENERGY",
+                    "price": 30
+                }
+            ]
+        },
+        {
+            "category": "BOISSONS",
+            "items": [
+                {
+                    "name": "Eau minérale 33 cl",
+                    "price": 5
+                },
+                {
+                    "name": "Eau minérale 1/2 L",
+                    "price": 8
+                }
+            ]
+        }
+    ]
+}

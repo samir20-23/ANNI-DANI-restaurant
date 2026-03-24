@@ -1,0 +1,193 @@
+{
+    "source_image": "dessert-pastry-bakery-menu.jpg",
+    "brand": "AANI & DANI",
+    "currency": "DH",
+    "categories": [
+        {
+            "category": "CREPE SUCREES",
+            "items": [
+                {
+                    "name": "Crêpe Triple Chocolat",
+                    "price": 33
+                },
+                {
+                    "name": "Crêpe Fettuccine",
+                    "price": 35
+                },
+                {
+                    "name": "Crêpe Lotus Croquant",
+                    "price": 38
+                },
+                {
+                    "name": "Crêpe brownie",
+                    "price": 40
+                },
+                {
+                    "name": "Crêpe Nutella Red Velvet",
+                    "price": 40
+                },
+                {
+                    "name": "Mighty Crêpe",
+                    "price": 45
+                },
+                {
+                    "name": "Crêpe Sushi",
+                    "price": 45
+                },
+                {
+                    "name": "Crêpe Pistachio Nature",
+                    "price": 59
+                },
+                {
+                    "name": "Choco-Pizza Royal",
+                    "price": 60
+                },
+                {
+                    "name": "Waffele Tutti Frutti",
+                    "price": 36
+                },
+                {
+                    "name": "Waffle Triple Chocolat",
+                    "price": 38
+                },
+                {
+                    "name": "Waffele Lotus",
+                    "price": 39
+                }
+            ]
+        },
+        {
+            "category": "CREPE SALEES",
+            "items": [
+                {
+                    "name": "Crêpe fromage",
+                    "price": 30,
+                    "description": "Crêpe remplie au Fromage et servie avec une Mini Salade Variée"
+                },
+                {
+                    "name": "Crêpes fromage et dinde",
+                    "price": 35,
+                    "description": "Crêpe remplie au Fromage et Dinde, servie avec une Mini Salade Variée"
+                },
+                {
+                    "name": "Crêpe au poulet",
+                    "price": 45,
+                    "description": "Crêpe remplie au Fromage, poulet et servie avec une Mini Salade et sauce maison"
+                },
+                {
+                    "name": "Crêpe au thon",
+                    "price": 40,
+                    "description": "Crêpe remplie au Fromage, Thon et servie avec une Mini Salade et sauce maison"
+                }
+            ]
+        },
+        {
+            "category": "TARTELETTES & TARTES",
+            "items": [
+                {
+                    "name": "Tartelettes Framboise",
+                    "price": 12
+                },
+                {
+                    "name": "Tartelettes aux Amandes",
+                    "price": 12
+                },
+                {
+                    "name": "Tartelettes Pistache",
+                    "price": 12
+                },
+                {
+                    "name": "Tartelettes aux noix de Cajou",
+                    "price": 12
+                },
+                {
+                    "name": "Tarte Citron",
+                    "price": 15
+                },
+                {
+                    "name": "Tarte Oreo",
+                    "price": 20
+                },
+                {
+                    "name": "Cheese-cake",
+                    "price": 20
+                }
+            ]
+        },
+        {
+            "category": "CAKES",
+            "items": [
+                {
+                    "name": "Fondant au chocolat",
+                    "price": 12
+                },
+                {
+                    "name": "Brownies",
+                    "price": 15
+                },
+                {
+                    "name": "Cake Dame",
+                    "price": 15
+                }
+            ]
+        },
+        {
+            "category": "VIENNOISERIE",
+            "items": [
+                {
+                    "name": "Pain au chocolat",
+                    "price": 10
+                },
+                {
+                    "name": "Pain nature",
+                    "price": 10
+                },
+                {
+                    "name": "Croissant nature",
+                    "price": 10
+                },
+                {
+                    "name": "Croissant à la crème d'amandes",
+                    "price": 15
+                },
+                {
+                    "name": "Croissant à la crème citron",
+                    "price": 15
+                },
+                {
+                    "name": "Croissant à la crème framboise",
+                    "price": 15
+                },
+                {
+                    "name": "Croissant à la dinde fumée et fromage",
+                    "price": 20
+                }
+            ]
+        },
+        {
+            "category": "PATISSERIE",
+            "items": [
+                {
+                    "name": "Ferrero",
+                    "price": 20
+                },
+                {
+                    "name": "Sneakers",
+                    "price": 20
+                },
+                {
+                    "name": "Chocolat",
+                    "price": 20
+                },
+                {
+                    "name": "Vanille",
+                    "price": 20
+                },
+                {
+                    "name": "Caramel",
+                    "price": 20
+                }
+            ]
+        }
+    ]
+}
