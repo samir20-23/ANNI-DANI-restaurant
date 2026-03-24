@@ -476,31 +476,32 @@ a {
 
 /* ===== MENU CATEGORY CARD ===== */
 .menu-category {
-  background: var(--color-bg-card);
-  border-radius: var(--radius-md);
-  padding: var(--space-md);
-  border: 1px solid var(--color-border);
-  transition: box-shadow var(--transition);
+  background: transparent;
+  padding: var(--space-md) var(--space-sm);
+  transition: transform var(--transition);
 }
 
 .menu-category:hover {
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  transform: translateY(-2px);
 }
 
 .menu-category__title {
   font-family: var(--font-heading);
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 1.4rem;
+  font-weight: 700;
   color: var(--color-text);
-  margin-bottom: var(--space-sm);
+  margin-bottom: var(--space-md);
   padding-bottom: var(--space-xs);
-  border-bottom: 2px solid var(--color-accent-light);
+  border-bottom: 1px solid var(--color-border);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 .menu-category__items {
   display: flex;
   flex-direction: column;
-  gap: 0.625rem;
+  gap: 1.1rem;
 }
 
 .menu-item {
@@ -510,43 +511,50 @@ a {
 
 .menu-item__header {
   display: flex;
-  align-items: baseline;
+  align-items: flex-end;
   gap: 0.5rem;
 }
 
 .menu-item__name {
-  font-size: 0.9rem;
-  font-weight: 500;
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 600;
   color: var(--color-text);
-  white-space: nowrap;
+  margin-bottom: -2px;
 }
 
 .menu-item__dots {
   flex: 1;
-  border-bottom: 1px dotted var(--color-border);
+  border-bottom: 2px dotted rgba(200, 150, 92, 0.4);
   min-width: 20px;
-  margin-bottom: 4px;
+  position: relative;
+  top: -6px;
 }
 
 .menu-item__price {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   font-weight: 600;
   color: var(--color-accent-dark);
   white-space: nowrap;
 }
 
 .menu-item__desc {
-  font-size: 0.78rem;
+  font-size: 0.85rem;
   color: var(--color-text-light);
-  line-height: 1.4;
-  margin-top: 2px;
+  line-height: 1.5;
+  margin-top: 4px;
+  font-style: italic;
+  padding-right: 4rem;
 }
 
 .menu-category__more {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   color: var(--color-accent);
-  margin-top: var(--space-xs);
+  margin-top: var(--space-md);
   font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 /* ===== SPACE SECTION ===== */
