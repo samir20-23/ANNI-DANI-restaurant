@@ -65,6 +65,22 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Featured Food Gallery */}
+      <section className="section" id="gallery">
+        <div className="container">
+          <h2 className="section-title">Our Specialties</h2>
+          <p className="section-subtitle">
+            Crafted with fresh ingredients and passion
+          </p>
+          <div className="food-grid">
+            {featuredFoodImages.map((food, idx) => (
+              <FoodCard key={idx} src={food.src} alt={food.alt} />
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Space & Vibe */}
       <SpaceSection />
 

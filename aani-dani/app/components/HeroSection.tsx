@@ -3,11 +3,11 @@ import Link from 'next/link';
 
 export default function HeroSection() {
   return (
-    <section
-      className="hero"
-      style={{ backgroundImage: 'url(/images/space/tagline-banner.jpg)' }}
-    >
-      <div className="hero__overlay" />
+    <section className="hero">
+      {/* Elegant dark gradient background for premium restaurant feel */}
+      <div className="hero__gradient-bg">
+        <div className="hero__gradient-accent" />
+      </div>
 
       <div className="hero__content">
         <div className="hero__logo-wrapper">

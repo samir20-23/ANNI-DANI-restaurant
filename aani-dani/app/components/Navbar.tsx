@@ -20,8 +20,8 @@ export default function Navbar() {
           <Image
             src="/images/about/logo-transparent.png"
             alt="AANI & DANI"
-            width={44}
-            height={44}
+            width={72}
+            height={72}
             priority
           />
         </Link>

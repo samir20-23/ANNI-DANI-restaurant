@@ -21,6 +21,9 @@ export default function SpaceSection() {
                 style={{ objectFit: 'cover' }}
                 loading="lazy"
               />
+              <div className="space-grid__text-overlay">
+                <span>{img.alt}</span>
+              </div>
             </div>
           ))}
         </div>
