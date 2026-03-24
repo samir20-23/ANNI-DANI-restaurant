@@ -477,8 +477,12 @@ a {
 /* ===== MENU CATEGORY CARD ===== */
 .menu-category {
   background: transparent;
-  padding: var(--space-md) var(--space-sm);
+  padding: 0;
   transition: transform var(--transition);
+  break-inside: avoid;
+  margin-bottom: var(--space-xl);
+  display: inline-block;
+  width: 100%;
 }
 
 .menu-category:hover {
@@ -875,14 +879,14 @@ a {
 }
 
 .menu-section__grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: var(--space-md);
+  columns: 2;
+  column-gap: var(--space-xl);
 }
 
 @media (max-width: 768px) {
   .menu-section__grid {
-    grid-template-columns: 1fr;
+    columns: 1;
+    column-gap: 0;
   }
 }
 
