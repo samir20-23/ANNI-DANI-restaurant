@@ -125,7 +125,7 @@ php artisan route:cache
 php artisan view:cache
 
 # Deploy to production server
-# Configure your hosting provider accordingly
+# Configure  hosting provider accordingly
 ```
 
 ## 📂 Key Features
@@ -198,4 +198,4 @@ Active development - Features and improvements ongoing.
 
 ---
 
-**Last Updated**: March 2026
+**Last Updated**: March 2026 by samir 
