@@ -14,14 +14,13 @@ export default function HeroSection() {
           <Image
             src="/images/about/logo-transparent.png"
             alt="AANI & DANI Logo"
-            width={120}
-            height={120}
+            width={230}
+            height={230}
             priority
             className="hero__logo"
           />
         </div>
-
-        <h1 className="sr-only">AANI & DANI</h1>
+ 
         <p className="hero__tagline">
           Where the beauty of nature meets the flavors of AANI&nbsp;&&nbsp;DANI
         </p>

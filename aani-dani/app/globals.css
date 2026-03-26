@@ -325,7 +325,9 @@ a {
   justify-content: center;
   overflow: hidden;
 }
-
+.hero__logo{
+  width:222px ;
+}
 .hero__bg {
   position: absolute;
   inset: 0;
@@ -640,6 +642,7 @@ a {
   background: var(--color-bg-dark);
   padding: var(--space-2xl) 0;
   text-align: center;
+  max-height:400px; 
 }
 
 .cta-banner__title {
