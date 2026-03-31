@@ -1,6 +1,5 @@
 {
-    "source_image": "fast-food-snack-menu.jpg",
-    "brand": "AANI & DANI",
+   "brand": "AANI & DANI",
     "currency": "DH",
     "categories": [
         {
@@ -154,7 +153,7 @@
                 {
                     "category": "WRAPS",
                     "items": [
-                        { "name": "Wrap poulet avocado", "price": 70, "description": "" },
+                        { "name": "Wrap poulet avocat", "price": 70, "description": "" },
                         { "name": "Wrap à la viande hachée", "price": 80, "description": "" },
                         { "name": "Wrap aux nuggets", "price": 70, "description": "" },
                         { "name": "Wrap aux fruits de mer", "price": 100, "description": "" }

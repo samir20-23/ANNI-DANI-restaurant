@@ -7,7 +7,7 @@ interface MenuCategoryCardProps {
 }
 
 export default function MenuCategoryCard({ category, compact = false }: MenuCategoryCardProps) {
-  const items = compact ? category.items.slice(0, 4) : category.items;
+  const items = compact ? (category.items || []).slice(0, 4) : (category.items || []);
 
   // Pick an image deterministically based on category name length so each looks slightly unique
   const bgImage = foodImages[category.category.length % foodImages.length].src;
@@ -37,26 +37,49 @@ export default function MenuCategoryCard({ category, compact = false }: MenuCate
 
       <div style={{ position: 'relative', zIndex: 1 }}>
         <h3 className="menu-category__title">{category.category}</h3>
-        <div className="menu-category__items">
-          {items.map((item, idx) => (
-            <div key={idx} className="menu-item">
-              <div className="menu-item__header">
-                <span className="menu-item__name">{item.name}</span>
-                <span className="menu-item__dots" />
-                <span className="menu-item__price">
-                  {item.price ? `${item.price} DH` : 'Ask in-store'}
-                </span>
+        
+        {category.subCategories ? (
+          <div className="menu-subcategories">
+            {category.subCategories.map((sub, sIdx) => (
+              <div key={sIdx} className="menu-subcategory">
+                <h4 className="menu-subcategory__title">{sub.category}</h4>
+                <div className="menu-category__items">
+                  {(sub.items || []).map((item, idx) => (
+                    <MenuCategoryItem key={idx} item={item} compact={compact} />
+                  ))}
+                </div>
               </div>
-              {item.description && !compact && (
-                <p className="menu-item__desc">{item.description}</p>
-              )}
-            </div>
-          ))}
-        </div>
-        {compact && category.items.length > 4 && (
+            ))}
+          </div>
+        ) : (
+          <div className="menu-category__items">
+            {items.map((item, idx) => (
+              <MenuCategoryItem key={idx} item={item} compact={compact} />
+            ))}
+          </div>
+        )}
+
+        {compact && category.items && category.items.length > 4 && (
           <p className="menu-category__more">+{category.items.length - 4} more items</p>
         )}
       </div>
+    </div>
+  );
+}
+
+function MenuCategoryItem({ item, compact }: { item: any; compact: boolean }) {
+  return (
+    <div className="menu-item">
+      <div className="menu-item__header">
+        <span className="menu-item__name">{item.name}</span>
+        <span className="menu-item__dots" />
+        <span className="menu-item__price">
+          {item.price ? `${item.price} DH` : 'Ask in-store'}
+        </span>
+      </div>
+      {item.description && !compact && (
+        <p className="menu-item__desc">{item.description}</p>
+      )}
     </div>
   );
 }

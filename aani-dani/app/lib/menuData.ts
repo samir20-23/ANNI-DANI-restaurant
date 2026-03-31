@@ -9,7 +9,8 @@ export interface MenuItem {
 
 export interface MenuCategory {
   category: string;
-  items: MenuItem[];
+  items?: MenuItem[];
+  subCategories?: MenuCategory[];
   sourceImage?: string;
 }
 
@@ -23,16 +24,16 @@ import path from 'path';
 
 // --- Paths to JSON files ---
 const dataMenuDir = path.join(process.cwd(), 'public/data/data_menu');
-const menuInWebsitDir = path.join(process.cwd(), 'public/data/MenuInWebsit');
+// const menuInWebsitDir = path.join(process.cwd(), 'public/data/MenuInWebsit');
 
 const breakfastData = JSON.parse(fs.readFileSync(path.join(dataMenuDir, 'breakfast-omelette-menu.json'), 'utf-8'));
 const dessertData = JSON.parse(fs.readFileSync(path.join(dataMenuDir, 'dessert-pastry-bakery-menu.json'), 'utf-8'));
 const drinksData = JSON.parse(fs.readFileSync(path.join(dataMenuDir, 'drinks-beverages-menu.json'), 'utf-8'));
 const fastFoodData = JSON.parse(fs.readFileSync(path.join(dataMenuDir, 'fast-food-snack-menu.json'), 'utf-8'));
 
-const crepesViennoiseriesData = JSON.parse(fs.readFileSync(path.join(menuInWebsitDir, 'les-crepes-et-les-viennoiseries.json'), 'utf-8'));
-const jusBoissonsData = JSON.parse(fs.readFileSync(path.join(menuInWebsitDir, 'les-jus-et-les-boissons-et-froides.json'), 'utf-8'));
-const petitsDejeunersData = JSON.parse(fs.readFileSync(path.join(menuInWebsitDir, 'les-petits-dejeuners.json'), 'utf-8'));
+// const crepesViennoiseriesData = JSON.parse(fs.readFileSync(path.join(menuInWebsitDir, 'les-crepes-et-les-viennoiseries.json'), 'utf-8'));
+// const jusBoissonsData = JSON.parse(fs.readFileSync(path.join(menuInWebsitDir, 'les-jus-et-les-boissons-et-froides.json'), 'utf-8'));
+// const petitsDejeunersData = JSON.parse(fs.readFileSync(path.join(menuInWebsitDir, 'les-petits-dejeuners.json'), 'utf-8'));
 
 function normalizeCategoryName(name: string): string {
   return name
@@ -49,17 +50,32 @@ function normalizeItemName(name: string): string {
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function parseSchema1(data: any): MenuCategory[] {
   if (!data.categories || !Array.isArray(data.categories)) return [];
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  return data.categories.map((cat: any) => ({
-    category: normalizeCategoryName(cat.category),
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    items: (cat.items || []).map((item: any) => ({
-      name: normalizeItemName(item.name),
-      price: item.price ?? null,
-      description: item.description || undefined,
-    })),
-    sourceImage: data.source_image || undefined,
-  }));
+  
+  return data.categories.map((cat: any) => {
+    const category: MenuCategory = {
+      category: normalizeCategoryName(cat.category),
+      sourceImage: data.source_image || undefined,
+    };
+
+    if (cat.sub_categories && Array.isArray(cat.sub_categories)) {
+      category.subCategories = cat.sub_categories.map((sub: any) => ({
+        category: normalizeCategoryName(sub.category),
+        items: (sub.items || []).map((item: any) => ({
+          name: normalizeItemName(item.name),
+          price: item.price ?? null,
+          description: item.description || undefined,
+        })),
+      }));
+    } else {
+      category.items = (cat.items || []).map((item: any) => ({
+        name: normalizeItemName(item.name),
+        price: item.price ?? null,
+        description: item.description || undefined,
+      }));
+    }
+
+    return category;
+  });
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -111,12 +127,15 @@ function getAllCategories(): MenuCategory[] {
     ...parseSchema1(fastFoodData),
   ];
 
-  // Parse schema 2 files
-  const schema2Categories = [
+  // Schema 2 files (commented out as V2 is now the source of truth)
+  const schema2Categories: MenuCategory[] = [];
+  /*
+  [
     ...parseSchema2(crepesViennoiseriesData),
     ...parseSchema2(jusBoissonsData),
     ...parseSchema2(petitsDejeunersData),
   ];
+  */
 
   // Merge: group by normalized category name, deduplicate items
   const merged = new Map<string, MenuCategory>();
@@ -125,7 +144,12 @@ function getAllCategories(): MenuCategory[] {
     const key = cat.category.toLowerCase();
     if (merged.has(key)) {
       const existing = merged.get(key)!;
-      existing.items = deduplicateItems([...existing.items, ...cat.items]);
+      if (cat.subCategories) {
+        existing.subCategories = [...(existing.subCategories || []), ...cat.subCategories];
+      }
+      if (cat.items) {
+        existing.items = deduplicateItems([...(existing.items || []), ...cat.items]);
+      }
       if (!existing.sourceImage && cat.sourceImage) {
         existing.sourceImage = cat.sourceImage;
       }
@@ -213,7 +237,7 @@ export function getMenuPreview(): MenuCategory[] {
     const match = allCategories.find(
       cat => cat.category.toLowerCase().includes(pattern) && !preview.find(p => p.category === cat.category)
     );
-    if (match) {
+    if (match && match.items) {
       preview.push({
         ...match,
         items: match.items.slice(0, 4),
@@ -226,7 +250,11 @@ export function getMenuPreview(): MenuCategory[] {
 }
 
 export function getTotalItemCount(): number {
-  return getAllCategories().reduce((sum, cat) => sum + cat.items.length, 0);
+  return getAllCategories().reduce((sum, cat) => {
+    const directItems = cat.items?.length || 0;
+    const subItems = cat.subCategories?.reduce((s, sub) => s + (sub.items?.length || 0), 0) || 0;
+    return sum + directItems + subItems;
+  }, 0);
 }
 
 export function getTotalCategoryCount(): number {

@@ -4,188 +4,78 @@
     "currency": "DH",
     "categories": [
         {
-            "category": "CREPE SUCREES",
-            "items": [
+            "category": "LES CRÊPES ET LES VIENNOISERIES",
+            "sub_categories": [
                 {
-                    "name": "Crêpe Triple Chocolat",
-                    "price": 33
+                    "category": "CRÊPES SUCRÉES",
+                    "items": [
+                        { "name": "Crêpe nature", "price": 39, "description": "Crêpe légèrement beurrée, sucre et citron" },
+                        { "name": "Crêpe Nutella", "price": 52, "description": "Crêpe moelleuse servie with du Nutella" },
+                        { "name": "Choco Brownie Crêpe", "price": 69, "description": "Crêpe remplie de morceaux de brownie with notre savoureux mélange de trois chocolats" },
+                        { "name": "Crêpe Triple Choco Crunch", "price": 75, "description": "Crêpe servie with une garniture de chocolat noir et blanc et de biscuits Lotus, accompagnée de glace et de chocolat et notre chips" },
+                        { "name": "Crêpe Triple Choco", "price": 62, "description": "Crêpe servie with trois de nos chocolats de signature" },
+                        { "name": "Crêpe Praliné et Chantilly", "price": 75, "description": "Crêpe servie with une sélection de fruits frais et saisonnières, with chantilly et notre chocolat fondant" },
+                        { "name": "Crêpe Oreo", "price": 72, "description": "Crêpe fourrée au morceaux d'Oreo, servie with la glace et le chocolat de votre choix" },
+                        { "name": "Royal Fettuccine", "price": 79, "description": "Crêpe coupée en fines lanières, servie with des morceaux d'Oreo, Kit Kat, Kinder, nappée de trois chocolats et de chocolat noir et une boule de glace" },
+                        { "name": "Choco Banana Roll", "price": 65, "description": "Crêpe fourrée au chocolat et parée de fruits, pollens et chocolats blanc" },
+                        { "name": "Lotus Mighty Crêpe", "price": 82, "description": "Crêpe généreusement garnie de fraises ou de bananes de brownies, de sauce chocolat, de nappage de Lotus, de boule de chocolat au lait et de chocolat blanc" },
+                        { "name": "Crêpe Choco-Lotus Mania", "price": 85, "description": "Crêpe fourrée au chocolat blanc, au beurre de caramel et à la glace de votre choix, nappée de Nutella, de chocolat blanc with morceaux d'Oreo" },
+                        { "name": "Crêpe miel, amlou et fruits secs", "price": 75, "description": "Crêpe fourrée à l'amlou et au miel, décorée with du fruits frais secs" }
+                    ]
                 },
                 {
-                    "name": "Crêpe Fettuccine",
-                    "price": 35
+                    "category": "CRÊPES SALÉES",
+                    "items": [
+                        { "name": "Crêpe Fromage Spécial", "price": 49, "description": "Crêpe garnie de trois types de fromages fondant, présentée with une pâte légère et mince, servie chaude with une salade fraîche" },
+                        { "name": "Crêpe au poulet", "price": 65, "description": "Crêpe garnie de morceaux de poulet tendres et de fromage et de mozzarella fondante, présentée with une pâte légère et mince et servie chaude with une salade fraîche" },
+                        { "name": "Crêpe à la viande hachée", "price": 82, "description": "Crêpe garnie de viande hachée assaisonnée with soins, de crème fraîche et de mozzarella fondante, présentée with une pâte légère et mince et servie chaude with une salade fraîche" },
+                        { "name": "Crêpe à la dinde fumée", "price": 75, "description": "Crêpe garnie de morceaux de dinde fumée, de crème fraîche et de mozzarella fondante, présentée with une pâte légère et mince servie chaude with une salade fraîche" },
+                        { "name": "Crêpe poulet et dinde fumée", "price": 90, "description": "Crêpe garnie de morceaux de poulet et de dinde fumée, de crème fraîche et de mozzarella fondante, présentée with une pâte légère et mince servie chaude with une salade fraîche" }
+                    ]
                 },
                 {
-                    "name": "Crêpe Lotus Croquant",
-                    "price": 38
+                    "category": "PANCAKES",
+                    "items": [
+                        { "name": "Pancakes aux fruits frais et chocolat", "price": 69, "description": "Pancakes moelleux servis with une sélection de fruits frais de saison, de la crème fraîche légère et du chocolat fondant" },
+                        { "name": "Pancakes brownie", "price": 82, "description": "Pancakes fourrés de couches de brownie, de fraises ou de bananes, de morceaux de fromage à la crème et de notre trois chocolats fondant" },
+                        { "name": "Pancakes amlou et banane", "price": 65, "description": "Pancakes moelleux servis with une garniture de chocolat fondante, des tranches de banane fraîche et des fruits secs" },
+                        { "name": "Pancakes Nutella et banane", "price": 55, "description": "Pancakes moelleux servis with une garniture généreuse de Nutella et de tranches de banane fraîche" },
+                        { "name": "Oreo Crunch Pancakes", "price": 82, "description": "Pancakes moelleux fourrés de morceaux d'Oreo et de morceaux d'Oreo croustillants garnis de bananes and de fraises fraîches, servies with une boule de glace de votre choix au chocolat" }
+                    ]
                 },
                 {
-                    "name": "Crêpe brownie",
-                    "price": 40
+                    "category": "GAUFRES",
+                    "items": [
+                        { "name": "Gaufre aux fruits", "price": 74, "description": "Gaufre servie with un assortiment de fruits frais de saison, de la crème fouettée and votre choix de chocolat" },
+                        { "name": "Gaufre triple chocolat", "price": 62, "description": "Gaufre saupoudrée de nos trois variétés de mélanges de chocolat" },
+                        { "name": "Gaufre croquante au Lotus", "price": 67, "description": "Gaufre nappée de biscuit de Lotus blanc, garnie de morceaux de biscuit au caramel noir and croustillant, servie with la glace de votre choix" },
+                        { "name": "Pâte à choux", "price": 60, "description": "" }
+                    ]
                 },
                 {
-                    "name": "Crêpe Nutella Red Velvet",
-                    "price": 40
+                    "category": "DUO FONDANT-CROQUANT",
+                    "items": [
+                        { "name": "Classique", "price": 75, "description": "" },
+                        { "name": "Oreo", "price": 77, "description": "" },
+                        { "name": "KitKat", "price": 77, "description": "" },
+                        { "name": "Lotus", "price": 77, "description": "" },
+                        { "name": "Nutella", "price": 77, "description": "" },
+                        { "name": "Banane", "price": 77, "description": "" }
+                    ]
                 },
                 {
-                    "name": "Mighty Crêpe",
-                    "price": 45
+                    "category": "SPÉCIALITÉS À LA TERRE CUITE",
+                    "items": [
+                        { "name": "Brownies & cookies", "price": 85, "description": "Un sandwich de cookies garni de brownies, nappé de notre variété de chocolats, accompagné de la glace de votre choix" },
+                        { "name": "Lotus & cookies", "price": 85, "description": "Un sandwich de cookies au malt de caramel and au Lotus, servi with des garnitures de Lotus, de chocolat blanc and des morceaux de biscuits caramélisés and croustillants. Accompagné de la glace de votre choix" }
+                    ]
                 },
                 {
-                    "name": "Crêpe Sushi",
-                    "price": 45
-                },
-                {
-                    "name": "Crêpe Pistachio Nature",
-                    "price": 59
-                },
-                {
-                    "name": "Choco-Pizza Royal",
-                    "price": 60
-                },
-                {
-                    "name": "Waffele Tutti Frutti",
-                    "price": 36
-                },
-                {
-                    "name": "Waffle Triple Chocolat",
-                    "price": 38
-                },
-                {
-                    "name": "Waffele Lotus",
-                    "price": 39
-                }
-            ]
-        },
-        {
-            "category": "CREPE SALEES",
-            "items": [
-                {
-                    "name": "Crêpe fromage",
-                    "price": 30,
-                    "description": "Crêpe remplie au Fromage et servie avec une Mini Salade Variée"
-                },
-                {
-                    "name": "Crêpes fromage et dinde",
-                    "price": 35,
-                    "description": "Crêpe remplie au Fromage et Dinde, servie avec une Mini Salade Variée"
-                },
-                {
-                    "name": "Crêpe au poulet",
-                    "price": 45,
-                    "description": "Crêpe remplie au Fromage, poulet et servie avec une Mini Salade et sauce maison"
-                },
-                {
-                    "name": "Crêpe au thon",
-                    "price": 40,
-                    "description": "Crêpe remplie au Fromage, Thon et servie avec une Mini Salade et sauce maison"
-                }
-            ]
-        },
-        {
-            "category": "TARTELETTES & TARTES",
-            "items": [
-                {
-                    "name": "Tartelettes Framboise",
-                    "price": 12
-                },
-                {
-                    "name": "Tartelettes aux Amandes",
-                    "price": 12
-                },
-                {
-                    "name": "Tartelettes Pistache",
-                    "price": 12
-                },
-                {
-                    "name": "Tartelettes aux noix de Cajou",
-                    "price": 12
-                },
-                {
-                    "name": "Tarte Citron",
-                    "price": 15
-                },
-                {
-                    "name": "Tarte Oreo",
-                    "price": 20
-                },
-                {
-                    "name": "Cheese-cake",
-                    "price": 20
-                }
-            ]
-        },
-        {
-            "category": "CAKES",
-            "items": [
-                {
-                    "name": "Fondant au chocolat",
-                    "price": 12
-                },
-                {
-                    "name": "Brownies",
-                    "price": 15
-                },
-                {
-                    "name": "Cake Dame",
-                    "price": 15
-                }
-            ]
-        },
-        {
-            "category": "VIENNOISERIE",
-            "items": [
-                {
-                    "name": "Pain au chocolat",
-                    "price": 10
-                },
-                {
-                    "name": "Pain nature",
-                    "price": 10
-                },
-                {
-                    "name": "Croissant nature",
-                    "price": 10
-                },
-                {
-                    "name": "Croissant à la crème d'amandes",
-                    "price": 15
-                },
-                {
-                    "name": "Croissant à la crème citron",
-                    "price": 15
-                },
-                {
-                    "name": "Croissant à la crème framboise",
-                    "price": 15
-                },
-                {
-                    "name": "Croissant à la dinde fumée et fromage",
-                    "price": 20
-                }
-            ]
-        },
-        {
-            "category": "PATISSERIE",
-            "items": [
-                {
-                    "name": "Ferrero",
-                    "price": 20
-                },
-                {
-                    "name": "Sneakers",
-                    "price": 20
-                },
-                {
-                    "name": "Chocolat",
-                    "price": 20
-                },
-                {
-                    "name": "Vanille",
-                    "price": 20
-                },
-                {
-                    "name": "Caramel",
-                    "price": 20
+                    "category": "VIENNOISERIES",
+                    "items": [
+                        { "name": "Petit-pain chocolat", "price": 18, "description": "" },
+                        { "name": "Croissant nature", "price": 18, "description": "" }
+                    ]
                 }
             ]
         }
